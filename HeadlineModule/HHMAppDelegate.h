@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HHMRequestManager.h"
+#import "HHMHeadlineArray.h"
 
 @interface HHMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) HHMHeadlineArray *headline;
 
 @end

@@ -19,6 +19,16 @@
 		0609D8101894885000194ADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0609D7F81894885000194ADC /* UIKit.framework */; };
 		0609D8181894885000194ADC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0609D8161894885000194ADC /* InfoPlist.strings */; };
 		0609D81A1894885000194ADC /* HeadlineModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0609D8191894885000194ADC /* HeadlineModuleTests.m */; };
+		061E31051895AB8000F2EAD3 /* HHMRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E31041895AB8000F2EAD3 /* HHMRequestManager.m */; };
+		061E31081895B09500F2EAD3 /* HHMHeadline.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E31071895B09500F2EAD3 /* HHMHeadline.m */; };
+		061E310B1895C79300F2EAD3 /* HHMHeadlineArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E310A1895C79300F2EAD3 /* HHMHeadlineArray.m */; };
+		061E310E1896083E00F2EAD3 /* Headline.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061E310D1896083E00F2EAD3 /* Headline.storyboard */; };
+		061E3111189608A300F2EAD3 /* HHMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E3110189608A300F2EAD3 /* HHMViewController.m */; };
+		061E311418960AD700F2EAD3 /* HHMHeadlineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E311318960AD700F2EAD3 /* HHMHeadlineCell.m */; };
+		061E31171896233500F2EAD3 /* HHMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E31161896233500F2EAD3 /* HHMWebViewController.m */; };
+		061E311A1896278300F2EAD3 /* HHMLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E31191896278300F2EAD3 /* HHMLinks.m */; };
+		061E311D189627DD00F2EAD3 /* HHMMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E311C189627DD00F2EAD3 /* HHMMobile.m */; };
+		E0724821DA3B431CAABC1C85 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A8E50EA5324EC98F6AE984 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,25 @@
 		0609D8151894885000194ADC /* HeadlineModuleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeadlineModuleTests-Info.plist"; sourceTree = "<group>"; };
 		0609D8171894885000194ADC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0609D8191894885000194ADC /* HeadlineModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadlineModuleTests.m; sourceTree = "<group>"; };
+		061E31031895AB8000F2EAD3 /* HHMRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHMRequestManager.h; sourceTree = "<group>"; };
+		061E31041895AB8000F2EAD3 /* HHMRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHMRequestManager.m; sourceTree = "<group>"; };
+		061E31061895B09500F2EAD3 /* HHMHeadline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHMHeadline.h; sourceTree = "<group>"; };
+		061E31071895B09500F2EAD3 /* HHMHeadline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHMHeadline.m; sourceTree = "<group>"; };
+		061E31091895C79300F2EAD3 /* HHMHeadlineArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHMHeadlineArray.h; sourceTree = "<group>"; };
+		061E310A1895C79300F2EAD3 /* HHMHeadlineArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHMHeadlineArray.m; sourceTree = "<group>"; };
+		061E310D1896083E00F2EAD3 /* Headline.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Headline.storyboard; sourceTree = "<group>"; };
+		061E310F189608A300F2EAD3 /* HHMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHMViewController.h; path = Images.xcassets/HHMViewController.h; sourceTree = "<group>"; };
+		061E3110189608A300F2EAD3 /* HHMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHMViewController.m; path = Images.xcassets/HHMViewController.m; sourceTree = "<group>"; };
+		061E311218960AD700F2EAD3 /* HHMHeadlineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHMHeadlineCell.h; sourceTree = "<group>"; };
+		061E311318960AD700F2EAD3 /* HHMHeadlineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHMHeadlineCell.m; sourceTree = "<group>"; };
+		061E31151896233500F2EAD3 /* HHMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHMWebViewController.h; sourceTree = "<group>"; };
+		061E31161896233500F2EAD3 /* HHMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHMWebViewController.m; sourceTree = "<group>"; };
+		061E31181896278300F2EAD3 /* HHMLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHMLinks.h; sourceTree = "<group>"; };
+		061E31191896278300F2EAD3 /* HHMLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHMLinks.m; sourceTree = "<group>"; };
+		061E311B189627DD00F2EAD3 /* HHMMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHMMobile.h; sourceTree = "<group>"; };
+		061E311C189627DD00F2EAD3 /* HHMMobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHMMobile.m; sourceTree = "<group>"; };
+		1BED226E56DA4BFD9CA62ABB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		75A8E50EA5324EC98F6AE984 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 				0609D7F71894885000194ADC /* CoreGraphics.framework in Frameworks */,
 				0609D7F91894885000194ADC /* UIKit.framework in Frameworks */,
 				0609D7F51894885000194ADC /* Foundation.framework in Frameworks */,
+				E0724821DA3B431CAABC1C85 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				0609D7FA1894885000194ADC /* HeadlineModule */,
+				061E310C1896080700F2EAD3 /* HeadlineModuleBundle */,
 				0609D8131894885000194ADC /* HeadlineModuleTests */,
 				0609D7F31894885000194ADC /* Frameworks */,
 				0609D7F21894885000194ADC /* Products */,
+				1BED226E56DA4BFD9CA62ABB /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +132,7 @@
 				0609D7F61894885000194ADC /* CoreGraphics.framework */,
 				0609D7F81894885000194ADC /* UIKit.framework */,
 				0609D80D1894885000194ADC /* XCTest.framework */,
+				75A8E50EA5324EC98F6AE984 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +144,22 @@
 				0609D8041894885000194ADC /* HHMAppDelegate.m */,
 				0609D8061894885000194ADC /* Images.xcassets */,
 				0609D7FB1894885000194ADC /* Supporting Files */,
+				061E31031895AB8000F2EAD3 /* HHMRequestManager.h */,
+				061E31041895AB8000F2EAD3 /* HHMRequestManager.m */,
+				061E31091895C79300F2EAD3 /* HHMHeadlineArray.h */,
+				061E310A1895C79300F2EAD3 /* HHMHeadlineArray.m */,
+				061E31061895B09500F2EAD3 /* HHMHeadline.h */,
+				061E31071895B09500F2EAD3 /* HHMHeadline.m */,
+				061E310F189608A300F2EAD3 /* HHMViewController.h */,
+				061E3110189608A300F2EAD3 /* HHMViewController.m */,
+				061E311218960AD700F2EAD3 /* HHMHeadlineCell.h */,
+				061E311318960AD700F2EAD3 /* HHMHeadlineCell.m */,
+				061E31151896233500F2EAD3 /* HHMWebViewController.h */,
+				061E31161896233500F2EAD3 /* HHMWebViewController.m */,
+				061E31181896278300F2EAD3 /* HHMLinks.h */,
+				061E31191896278300F2EAD3 /* HHMLinks.m */,
+				061E311B189627DD00F2EAD3 /* HHMMobile.h */,
+				061E311C189627DD00F2EAD3 /* HHMMobile.m */,
 			);
 			path = HeadlineModule;
 			sourceTree = "<group>";
@@ -144,6 +193,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		061E310C1896080700F2EAD3 /* HeadlineModuleBundle */ = {
+			isa = PBXGroup;
+			children = (
+				061E310D1896083E00F2EAD3 /* Headline.storyboard */,
+			);
+			name = HeadlineModuleBundle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0609D81D1894885000194ADC /* Build configuration list for PBXNativeTarget "HeadlineModule" */;
 			buildPhases = (
+				C3CA08BD1F2F49F59FDCD758 /* Check Pods Manifest.lock */,
 				0609D7ED1894885000194ADC /* Sources */,
 				0609D7EE1894885000194ADC /* Frameworks */,
 				0609D7EF1894885000194ADC /* Resources */,
+				AC6584150DFA413BBE46D6B4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0609D7FF1894885000194ADC /* InfoPlist.strings in Resources */,
+				061E310E1896083E00F2EAD3 /* Headline.storyboard in Resources */,
 				0609D8071894885000194ADC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,13 +295,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC6584150DFA413BBE46D6B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CA08BD1F2F49F59FDCD758 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0609D7ED1894885000194ADC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061E3111189608A300F2EAD3 /* HHMViewController.m in Sources */,
+				061E311D189627DD00F2EAD3 /* HHMMobile.m in Sources */,
+				061E311A1896278300F2EAD3 /* HHMLinks.m in Sources */,
+				061E311418960AD700F2EAD3 /* HHMHeadlineCell.m in Sources */,
+				061E310B1895C79300F2EAD3 /* HHMHeadlineArray.m in Sources */,
+				061E31171896233500F2EAD3 /* HHMWebViewController.m in Sources */,
 				0609D8051894885000194ADC /* HHMAppDelegate.m in Sources */,
+				061E31051895AB8000F2EAD3 /* HHMRequestManager.m in Sources */,
 				0609D8011894885000194ADC /* main.m in Sources */,
+				061E31081895B09500F2EAD3 /* HHMHeadline.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +458,7 @@
 		};
 		0609D81E1894885000194ADC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BED226E56DA4BFD9CA62ABB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -370,6 +472,7 @@
 		};
 		0609D81F1894885000194ADC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BED226E56DA4BFD9CA62ABB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -442,6 +545,7 @@
 				0609D81F1894885000194ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0609D8201894885000194ADC /* Build configuration list for PBXNativeTarget "HeadlineModuleTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +554,7 @@
 				0609D8221894885000194ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

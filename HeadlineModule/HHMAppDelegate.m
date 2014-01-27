@@ -7,12 +7,17 @@
 //
 
 #import "HHMAppDelegate.h"
+#import "HHMViewController.h"
 
 @implementation HHMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Headline" bundle:nil];
+    HHMViewController *initialController = [storyboard instantiateViewControllerWithIdentifier:@"HHMViewController"];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setRootViewController:initialController];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
