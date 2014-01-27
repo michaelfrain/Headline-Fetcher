@@ -7,8 +7,17 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "HHMRequestManager.h"
+#import "HHMViewController.h"
+#import "HHMHeadlineArray.h"
+#import "HHMHeadline.h"
+#import "HHMLinks.h"
+#import "HHMMobile.h"
+
 
 @interface HeadlineModuleTests : XCTestCase
+
+@property (nonatomic, strong) HHMHeadlineArray *testHeadlineArray;
 
 @end
 
@@ -26,9 +35,17 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+- (void)testModelBuilding {
+    HHMRequestManager *requestManager = [HHMRequestManager sharedManager];
+    [requestManager headlineOfType:@"sports" andSport:nil success:^(HHMHeadlineArray *headline) {
+        self.testHeadlineArray = headline;
+        NSLog(@"Test is Ready.");
+        XCTAssertNotNil(self.testHeadlineArray, @"Data was not returned in the models properly.");
+        HHMHeadline *testHeadline = [self.testHeadlineArray.headlines objectAtIndex:4];
+        XCTAssertNotNil(testHeadline.links.mobile.href, @"Mobile Link model is not populating correctly.");
+    } failure:^(NSError *error) {
+        NSLog(@"Test is NOT Ready.");
+    }];
 }
 
 @end
