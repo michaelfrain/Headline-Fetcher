@@ -14,10 +14,10 @@
 
 @property (nonatomic, strong) NSString<Optional> *title;
 @property (nonatomic, strong) NSString<Optional> *headline;
-@property (nonatomic, strong) NSString *description;
-@property (nonatomic, strong) NSString *source;
+@property (nonatomic, strong) NSString<Optional> *description;
+@property (nonatomic, strong) NSString<Optional> *source;
 @property (nonatomic, strong) NSString<Optional> *byline;
-@property (nonatomic, strong) NSString *linkText;
-@property (nonatomic, strong) HHMLinks *links;
+@property (nonatomic, strong) NSString<Optional> *linkText;
+@property (nonatomic, strong) HHMLinks<Optional> *links;
 
 @end
